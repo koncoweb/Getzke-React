@@ -217,7 +217,7 @@
   position: relative;
   min-height: 100vh;
   overflow-x: hidden;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   background-color: #151414;
 }
@@ -559,6 +559,10 @@
 .home-component2 {
   text-decoration: none;
 }
+.home-footer {
+  padding-top: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-threeunits);
+}
 .home-top-part {
   width: 100%;
   display: none;
@@ -657,28 +661,45 @@
   background-color: #D9D9D9;
 }
 .home-max-width3 {
+  position: relative;
+  align-items: center;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 .home-image11 {
   width: 100px;
   object-fit: cover;
 }
 .home-text18 {
+  top: 18px;
+  right: 0px;
   align-self: center;
+  text-align: right;
 }
 .home-text19 {
   color: #F9EDD7;
 }
 .home-text20 {
   color: #F9EDD7;
-  font-weight: 700;
+  text-align: right;
 }
 .home-text21 {
-  color: #F9EDD7;
+  left: 0px;
+  bottom: 0px;
+  margin: var(--dl-space-space-halfunit);
+  align-self: center;
 }
 .home-text22 {
   color: #F9EDD7;
+}
+.home-text23 {
+  color: #F9EDD7;
+  font-style: normal;
+  font-weight: 700;
+}
+.home-text24 {
+  color: #F9EDD7;
+  font-style: normal;
   font-weight: 700;
 }
 @media(max-width: 991px) {
@@ -835,6 +856,17 @@
     padding-top: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-unit);
   }
+  .home-max-width2 {
+    align-items: center;
+    justify-content: center;
+  }
+  .home-max-width3 {
+    align-items: center;
+    justify-content: center;
+  }
+  .home-text21 {
+    align-self: center;
+  }
 }
 @media(max-width: 767px) {
   .home-hero {
@@ -935,6 +967,7 @@
   }
   .home-footer {
     display: flex;
+    align-self: stretch;
     margin-top: var(--dl-space-space-threeunits);
   }
   .home-top-part {
@@ -951,8 +984,17 @@
   .home-subscribe-container {
     width: 100%;
   }
+  .home-max-width3 {
+    align-items: stretch;
+    justify-content: center;
+  }
   .home-text18 {
+    position: static;
     font-size: 12px;
+  }
+  .home-text21 {
+    font-size: 12px;
+    align-self: center;
   }
 }
 @media(max-width: 479px) {
@@ -1081,6 +1123,7 @@
   }
   .home-footer {
     display: flex;
+    position: relative;
     margin-top: var(--dl-space-space-oneandhalfunits);
   }
   .home-top-part {
@@ -1092,6 +1135,8 @@
     margin-bottom: 0px;
   }
   .home-max-width3 {
+    align-self: center;
+    align-items: center;
     flex-direction: column;
   }
   .home-image11 {
@@ -1099,6 +1144,11 @@
   }
   .home-text18 {
     font-size: 12px;
-    text-align: center;
+    text-align: left;
+  }
+  .home-text21 {
+    font-size: 12px;
+    align-self: center;
+    text-align: left;
   }
 }
