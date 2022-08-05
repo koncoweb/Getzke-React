@@ -7,12 +7,14 @@
 .navigation-links-link {
   color: #f9edd7;
   cursor: pointer;
+  text-align: left;
   transition: 0.3s;
   text-decoration: none;
 }
 .navigation-links-link1 {
   color: #F9EDD7;
   cursor: pointer;
+  text-align: left;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
@@ -23,6 +25,7 @@
 .navigation-links-link2 {
   color: #F9EDD7;
   cursor: pointer;
+  text-align: left;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
@@ -102,6 +105,9 @@
   height: 24px;
   display: flex;
 }
+.navigation-mobile-menu {
+  background-color: #262626;
+}
 .navigation-nav1 {
   display: flex;
   align-items: flex-start;
@@ -115,14 +121,23 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
+.navigation-image {
+  width: var(--dl-size-size-small);
+}
 .navigation-close-mobile-menu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .navigation-icon2 {
+  fill: #F9EDD7;
   width: 24px;
   height: 24px;
+}
+.navigation-register1 {
+  color: #F9EDD7;
+  text-decoration: none;
+  background-color: #FF0000;
 }
 .navigation-root-class-name {
   height: var(--dl-size-size-small);

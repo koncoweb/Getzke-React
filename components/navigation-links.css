@@ -7,12 +7,14 @@
 .navigation-links-link {
   color: #f9edd7;
   cursor: pointer;
+  text-align: left;
   transition: 0.3s;
   text-decoration: none;
 }
 .navigation-links-link1 {
   color: #F9EDD7;
   cursor: pointer;
+  text-align: left;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
@@ -23,6 +25,7 @@
 .navigation-links-link2 {
   color: #F9EDD7;
   cursor: pointer;
+  text-align: left;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
