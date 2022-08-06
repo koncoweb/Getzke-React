@@ -261,7 +261,9 @@
   width: 100%;
   display: flex;
   grid-gap: 20px;
+  align-self: center;
   align-items: stretch;
+  justify-content: flex-start;
 }
 .home-link {
   display: contents;
@@ -400,6 +402,7 @@
   width: 25%;
   display: flex;
   grid-gap: 20px;
+  align-self: stretch;
   align-items: stretch;
   flex-direction: column;
   justify-content: space-between;
@@ -508,7 +511,7 @@
   width: 25%;
   display: flex;
   grid-gap: 20px;
-  align-self: flex-start;
+  align-self: stretch;
   align-items: stretch;
   flex-direction: column;
   justify-content: space-between;
@@ -732,6 +735,7 @@
 .home-link13 {
   color: var(--dl-color-scheme-white);
   font-size: 12px;
+  text-transform: uppercase;
 }
 .home-text24 {
   left: 0px;
