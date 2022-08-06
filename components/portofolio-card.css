@@ -44,6 +44,10 @@
 
 
 @media(max-width: 991px) {
+  .portofolio-card-speaker-card {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
   .portofolio-card-root-class-name4 {
     width: auto;
   }
