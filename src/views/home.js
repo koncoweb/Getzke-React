@@ -13,12 +13,12 @@ const Home = (props) => {
         <title>Getzke Official Site</title>
         <meta
           name="description"
-          content="Getzke : Brand Sepatu Lokal dengan Harga Masuk Akal dan model terbaru "
+          content="Getzke Sepatu Lokal Harga Masuk Akal dan model terbaru "
         />
         <meta property="og:title" content="Getzke Official Site" />
         <meta
           property="og:description"
-          content="Getzke : Brand Sepatu Lokal dengan Harga Masuk Akal dan model terbaru "
+          content="Getzke Sepatu Lokal Harga Masuk Akal dan model terbaru "
         />
         <meta
           property="og:image"
@@ -27,27 +27,34 @@ const Home = (props) => {
       </Helmet>
       <Navigation
         image_alt1="Logo Getzke.id"
-        image_src1="/playground_assets/logo-getzke-transparent-1500h.png"
+        image_src1="/playground_assets/logo-getzke-transparent-200h.png"
         rootClassName="navigation-root-class-name"
       ></Navigation>
       <main className="home-main">
         <div className="home-hero section-container">
           <div className="home-max-width max-content-container">
             <div className="home-gallery">
-              <div className="home-container01">
-                <img
-                  alt="image"
-                  src="/playground_assets/logo-getzke-transparent-1500h.png"
-                  loading="lazy"
-                  className="home-image"
-                />
-              </div>
+              <a
+                href="https://getzke.id/shop-2/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link"
+              >
+                <div className="home-container01">
+                  <img
+                    alt="image"
+                    src="/playground_assets/logo-getzke-transparent-200h.png"
+                    loading="lazy"
+                    className="home-image"
+                  />
+                </div>
+              </a>
               <div className="home-container02">
                 <a
                   href="https://shopee.co.id/getzkefootwear"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link"
+                  className="home-link01"
                 >
                   <div className="home-container03">
                     <img
@@ -61,7 +68,7 @@ const Home = (props) => {
                   href="https://www.tokopedia.com/getzke-id"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link01"
+                  className="home-link02"
                 >
                   <div className="home-container04">
                     <img
@@ -75,7 +82,7 @@ const Home = (props) => {
                   href="https://www.lazada.co.id/shop/getzke"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link02"
+                  className="home-link03"
                 >
                   <div className="home-container05">
                     <img
@@ -89,7 +96,7 @@ const Home = (props) => {
                   href="https://www.blibli.com/merchant/getzke-official-store/GEO-70047"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link03"
+                  className="home-link04"
                 >
                   <div className="home-container06">
                     <img
@@ -105,7 +112,7 @@ const Home = (props) => {
                   href="https://www.zalora.co.id/store/getzke-official"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link04"
+                  className="home-link05"
                 >
                   <div className="home-container08">
                     <img
@@ -119,7 +126,7 @@ const Home = (props) => {
                   href="https://shoesmart.co.id/products?search=getzke"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link05"
+                  className="home-link06"
                 >
                   <div className="home-container09">
                     <img
@@ -133,7 +140,7 @@ const Home = (props) => {
                   href="https://www.instagram.com/getzke/"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link06"
+                  className="home-link07"
                 >
                   <div className="home-container10">
                     <img
@@ -147,7 +154,7 @@ const Home = (props) => {
                   href="https://www.tiktok.com/@getzke.id?_d=secCgYIASAHKAESPgo8Dejd6Y1lOgKjgYiSEyLXoDR3H2Z7EJxGwSu%2Bk6Cb2ztG9m%2B7lZcm1Q7qft%2BkxEZu1%2B83H5UwXTekkANGGgA%3D&amp;_r=1&amp;language=id&amp;sec_uid=MS4wLjABAAAAiBC7hpplMQTOTKNU_5hcLtgFKrS-eUSqU3FRXShwLd5HjoyE9qeBQYz47MEvWnfk&amp;sec_user_id=MS4wLjABAAAA-044iWtK5TUQsng65Pc0OMTrvDNJUr0vxAaE-uZ4ambe0DMMg3cMPb2ELKFStWl2&amp;share_app_id=1180&amp;share_author_id=6869375106500035586&amp;share_link_id=8930b0da-225c-44dd-9836-e29f68aa1b20&amp;source=h5_t&amp;timestamp=1653649460&amp;u_code=dhdm6ei41g3mmf&amp;ugbiz_name=Account&amp;user_id=6938331195777729538&amp;utm_campaign=client_share&amp;utm_medium=android&amp;utm_source=copy"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link07"
+                  className="home-link08"
                 >
                   <div className="home-container11">
                     <img
@@ -159,14 +166,21 @@ const Home = (props) => {
                 </a>
               </div>
               <div className="home-container12">
-                <div className="home-container13">
-                  <img
-                    alt="image"
-                    src="/playground_assets/facebook-light.svg"
-                    className="home-image09"
-                  />
-                </div>
-                <a href="#csbox" className="home-link08">
+                <a
+                  href="https://www.facebook.com/getzke.id/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-link09"
+                >
+                  <div className="home-container13">
+                    <img
+                      alt="image"
+                      src="/playground_assets/facebook-light.svg"
+                      className="home-image09"
+                    />
+                  </div>
+                </a>
+                <a href="#csbox" className="home-link10">
                   <div className="home-container14">
                     <img
                       alt="image"
@@ -185,12 +199,6 @@ const Home = (props) => {
               id="customerservice"
               className="home-tab-selector-cards-container"
             >
-              <PortofolioCard
-                image_alt="Ikon Whatsapp"
-                image_src="/playground_assets/whatsapp.svg"
-                project_title="Hubungi Customer Service"
-                rootClassName="portofolio-card-root-class-name"
-              ></PortofolioCard>
               <a
                 href="https://api.whatsapp.com/send?phone=6281999307111"
                 target="_blank"
@@ -200,7 +208,7 @@ const Home = (props) => {
                   image_src="/playground_assets/cs1-getzke-200h.jpg"
                   project_title="CS 1"
                   rootClassName="portofolio-card-root-class-name5"
-                  className="home-component2"
+                  className="home-component1"
                 ></PortofolioCard>
               </a>
               <a
@@ -212,15 +220,15 @@ const Home = (props) => {
                   image_src="/playground_assets/cs2-getzke-200h.jpg"
                   project_title="CS 2"
                   rootClassName="portofolio-card-root-class-name4"
-                  className="home-component3"
+                  className="home-component2"
                 ></PortofolioCard>
               </a>
             </div>
           </div>
         </div>
       </main>
-      <div className="section-container">
-        <div className="max-content-container">
+      <div className="home-footer section-container">
+        <div className="max-content-container home-max-width2">
           <div className="home-top-part">
             <div className="home-links-container">
               <div className="home-product-container">
@@ -275,33 +283,56 @@ const Home = (props) => {
         </div>
         <div className="home-separator"></div>
         <footer className="home-max-width3 max-content-container">
-          <img
-            alt="image"
-            src="/playground_assets/logo-getzke-transparent-1500h.png"
-            className="home-image11"
-          />
-          <span className="home-text18">
-            <span className="home-text19">
-              Getzke All rights received @2022
+          <div className="home-container15">
+            <img
+              alt="image"
+              src="/playground_assets/logo-getzke-transparent-200h.png"
+              className="home-image11"
+            />
+            <span className="home-text18">
+              <span className="home-text19">Getzke All copyrights @2022</span>
+              <span className="home-text20"></span>
             </span>
-            <span className="home-text20">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="home-text21">
-              | Designed by
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="home-text22">M.M. Billy</span>
-          </span>
+          </div>
+          <div className="home-container16 list">
+            <a
+              href="https://getzke.id/promo/"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link13 list-item footer-link"
+            >
+              <span>Promo</span>
+              <span></span>
+            </a>
+            <a
+              href="https://getzke.id/pengembalian_dana_dan_barang/"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link14 list-item footer-link"
+            >
+              <span>Kebijakan Pengembalian Dana dan Barang</span>
+            </a>
+          </div>
         </footer>
+        <span className="home-text24">
+          <span className="home-text25">
+            Developed by
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <span className="home-text26">
+            KoncoWeb /
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <span className="home-text27">M.M. Billy</span>
+        </span>
       </div>
     </div>
   )

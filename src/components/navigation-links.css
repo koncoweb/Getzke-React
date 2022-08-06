@@ -7,12 +7,14 @@
 .navigation-links-link {
   color: #f9edd7;
   cursor: pointer;
+  text-align: left;
   transition: 0.3s;
   text-decoration: none;
 }
 .navigation-links-link1 {
   color: #F9EDD7;
   cursor: pointer;
+  text-align: left;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
@@ -23,11 +25,23 @@
 .navigation-links-link2 {
   color: #F9EDD7;
   cursor: pointer;
+  text-align: left;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
 }
 .navigation-links-link2:hover {
+  color: var(--dl-color-scheme-brown);
+}
+.navigation-links-link3 {
+  color: #F9EDD7;
+  cursor: pointer;
+  text-align: left;
+  transition: 0.3s;
+  margin-left: 41px;
+  text-decoration: none;
+}
+.navigation-links-link3:hover {
   color: var(--dl-color-scheme-brown);
 }
 
@@ -51,6 +65,10 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .navigation-links-link2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-link3 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }

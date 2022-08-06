@@ -13,11 +13,6 @@ const PortofolioCard = (props) => {
           src={props.image_src}
           className="portofolio-card-image"
         />
-        <div className="portofolio-card-see-project-container">
-          <button className="button-secondary-white button button-md">
-            See project
-          </button>
-        </div>
       </div>
       <span className="portofolio-card-first-name">{props.project_title}</span>
     </div>

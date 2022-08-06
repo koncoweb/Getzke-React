@@ -12,18 +12,15 @@ const Navigation = (props) => {
       className={`navigation-header ${props.rootClassName} `}
     >
       <div className="navigation-max-width">
-        <img
-          alt={props.image_alt}
-          src={props.image_src}
-          className="navigation-image"
-        />
         <div className="navigation-nav">
           <NavigationLinks
             rootClassName="navigation-links-root-class-name17"
             className=""
           ></NavigationLinks>
           <a
-            href="https://getzke.id/store"
+            href="https://getzke.id/shop-2/"
+            target="_blank"
+            rel="noreferrer noopener"
             className="navigation-register button-secondary button button-md"
           >
             {props.button}
@@ -37,10 +34,18 @@ const Navigation = (props) => {
             ></path>
           </svg>
         </div>
-        <div data-type="MobileMenu" className="mobile-menu">
+        <div
+          data-type="MobileMenu"
+          className="navigation-mobile-menu mobile-menu"
+        >
           <div className="navigation-nav1">
             <div className="navigation-container">
-              <img alt="image" className="" />
+              <img
+                alt="image"
+                src="/playground_assets/logo-getzke-transparent-1500h.png"
+                loading="lazy"
+                className="navigation-image"
+              />
               <div
                 data-type="CloseMobileMenu"
                 className="navigation-close-mobile-menu"
@@ -57,9 +62,14 @@ const Navigation = (props) => {
               rootClassName="navigation-links-root-class-name18"
               className=""
             ></NavigationLinks>
-            <button className="button-secondary button button-md">
+            <a
+              href="https://getzke.id/shop-2/"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="navigation-register1 button-secondary button button-md"
+            >
               {props.button2}
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -68,18 +78,14 @@ const Navigation = (props) => {
 }
 
 Navigation.defaultProps = {
-  image_src: '03aeadc5-b35b-4978-a295-0df3c4a7a535',
-  button: 'STORE',
-  button2: 'Get in touch',
-  image_alt: 'logo',
+  button: 'SHOP',
+  button2: 'SHOP',
   rootClassName: '',
 }
 
 Navigation.propTypes = {
-  image_src: PropTypes.string,
   button: PropTypes.string,
   button2: PropTypes.string,
-  image_alt: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 
